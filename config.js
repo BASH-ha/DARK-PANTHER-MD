@@ -4,24 +4,24 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['91xxxxxxxxxxx','917023951514'], // Add your number without + or spaces (e.g., 919876543210)
-    ownerName: ['Knight Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
+    ownerNumber: ['256xxxxxxxxx','256754583497'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerName: ['Dark Panther Md','Bashiri'], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
-    botName: 'Knight Bot Mini',
+    botName: 'Dark Panther Md',
     prefix: '.',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
-    newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
+    newsletterJid: '120363405445990040@newsletter', // Newsletter JID for menu forwarding
     updateZipUrl: 'https://github.com/mruniquehacker/KnightBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
     
     // Sticker Configuration
-    packname: 'Knight Bot Mini',
+    packname: 'Dark',
     
     // Bot Behavior
-    selfMode: false, // Private mode - only owner can use commands
+    selfMode: true, // Private mode - only owner can use commands
     autoRead: false,
-    autoTyping: false,
+    autoTyping: true,
     autoBio: false,
     autoSticker: false,
     autoReact: false,
@@ -35,15 +35,15 @@ module.exports = {
       antitag: false,
       antitagAction: 'delete',
       antiall: false, // Owner only - blocks all messages from non-admins
-      antiviewonce: false,
+      antiviewonce: true,
       antibot: false,
       anticall: false, // Anti-call feature
       antigroupmention: false, // Anti-group mention feature
       antigroupmentionAction: 'delete', // 'delete', 'kick'
       welcome: false,
-      welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ botName*',
+      welcomeMessage: '╭╼━≪•𝙽𝙴𝚆 𝙼𝙴𝙼𝙱𝙴𝚁•≫━╾╮\n┃𝚆𝙴𝙻𝙲𝙾𝙼𝙴: @user 👋\n┃Member count: #memberCount\n┃𝚃𝙸𝙼𝙴: time⏰\n╰━━━━━━━━━━━━━━━╯\n\n*@user* Welcome to *@group*! 🎉\n*Group 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽*\ngroupDesc\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀsʜɪʀɪ ᴛᴇcʜ*',
       goodbye: false,
-      goodbyeMessage: 'Goodbye @user 👋 We will never miss you!',
+      goodbyeMessage: 'Goodbye @user 👋 We wont miss you idiot!',
       antiSpam: false,
       antidelete: false,
       nsfw: false,
