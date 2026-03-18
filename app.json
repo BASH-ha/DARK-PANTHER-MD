@@ -1,5 +1,5 @@
 {
-  "name": "Knight Bot MINI",
+  "name": "Dark Panther Md",
   "description": "WhatsApp MD bot (Baileys)",
   "repository": "",
   "keywords": ["whatsapp", "baileys", "bot", "node"],
@@ -10,8 +10,8 @@
   ],
   "env": {
     "SESSION_ID": {
-      "description": "KnightBot session string (e.g. KnightBot!<base64_compressed_data>)",
-      "required": false,
+      "description": "AnoymousBot session string (e.g. AnoymousBot!<base64_compressed_data>)",
+      "required": true,
       "value": ""
     }
   }
